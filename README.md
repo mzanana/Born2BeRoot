@@ -1,7 +1,7 @@
 <h1 align = "center">Born2BeRoot</h1>
 
 <p align = "center">
-	<img src = "https://i.ibb.co/jh9jq5f/image.png"  width = "250">
+	<img src = ".assets/header.png"  width = "250">
 </p>
 
 
@@ -12,14 +12,14 @@
 
 ### You wanna pass the 42 Born2BeRoot Project. **DO YOU ??** 
 <p  align = "center" >
-	<img src = "https://i.ibb.co/rxKb10c/image.png" width="500">
+	<img src = ".assets/125.png" width="500">
 </p>
 
 So we're going into the main PDF subject, and every time we find a keyword or any scary word we don't face everyday! We gonna take our time to understand it and know how to work with it. Part per Part of the PDF until we finish the whole project ✅
 
 # <u>Let's start !</u>
 
-![introduction](https://i.ibb.co/K0sDzJQ/image.png)
+![introduction](.assets/machine.png)
 
 
 **Machine ?????**
@@ -41,7 +41,7 @@ VM is here to help you !
 
 A Virtual Machine allows you to run an **entire** operating system inside your current system, isn't that great.
 
-![VM](https://i.ibb.co/Kj5z1n6/image.png)
+![VM](.assets/vm.png)
 
 ### **Host & Guest**  
 
@@ -57,7 +57,7 @@ The hypervisor is just a software installed in your host OS, its job to create c
 The hypervisor create for every new OS all the resources it needs so the new VM thinks that's it is actually a computer.
 
 <p align = "center">
-	<img src = "https://i.ibb.co/hRRf3Fz/Hardwar-1.png" width = "550">
+	<img src = ".assets/hypervisor.png" width = "550">
 </p>
 
 The Hypervisor manage and allocate the portions of all the resources needed so that every OS think its inside a real computer.
@@ -77,12 +77,12 @@ The Hypervisor manage and allocate the portions of all the resources needed so t
 2. **Type 2 :** ( Hosted Hypervisor ) This type of hypervisor is the one we gonna use on our project, it is easy to set up, great for personal uses and testing. It runs on top of a host OS as an application.
 
 <p align = "center">
-	<img  src = "https://i.ibb.co/R90SPtL/Untitled-design-1-1.png" width = "600">
+	<img  src = ".assets/hv-types.png" width = "600">
 </p>
 
 # **Operating System, Linux, Debian and Rocky**
 
-![Os & Debian](https://i.ibb.co/ZY1Qdmx/image.png)
+![Os & Debian](.assets/os.png)
 
 ### > Operating System
 
