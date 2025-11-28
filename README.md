@@ -1,7 +1,7 @@
 <h1 align = "center">Born2BeRoot</h1>
 
 <p align = "center">
-	<img src = ".assets/header.png"  width = "250">
+	<img src = "assets/header.webp"  width = "250">
 </p>
 
 
@@ -12,14 +12,14 @@
 
 ### You wanna pass the 42 Born2BeRoot Project. **DO YOU ??** 
 <p  align = "center" >
-	<img src = ".assets/125.png" width="500">
+	<img src = "assets/125.webp" width="500">
 </p>
 
 So we're going into the main PDF subject, and every time we find a keyword or any scary word we don't face everyday! We gonna take our time to understand it and know how to work with it. Part per Part of the PDF until we finish the whole project ✅
 
 # <u>Let's start !</u>
 
-![introduction](.assets/machine.png)
+![introduction](assets/machine.webp)
 
 
 **Machine ?????**
@@ -41,7 +41,7 @@ VM is here to help you !
 
 A Virtual Machine allows you to run an **entire** operating system inside your current system, isn't that great.
 
-![VM](.assets/vm.png)
+![VM](assets/vm.webp)
 
 ### **Host & Guest**  
 
@@ -57,7 +57,7 @@ The hypervisor is just a software installed in your host OS, its job to create c
 The hypervisor create for every new OS all the resources it needs so the new VM thinks that's it is actually a computer.
 
 <p align = "center">
-	<img src = ".assets/hypervisor.png" width = "550">
+	<img src = "assets/hypervisor.webp" width = "550">
 </p>
 
 The Hypervisor manage and allocate the portions of all the resources needed so that every OS think its inside a real computer.
@@ -77,12 +77,12 @@ The Hypervisor manage and allocate the portions of all the resources needed so t
 2. **Type 2 :** ( Hosted Hypervisor ) This type of hypervisor is the one we gonna use on our project, it is easy to set up, great for personal uses and testing. It runs on top of a host OS as an application.
 
 <p align = "center">
-	<img  src = ".assets/hv-types.png" width = "600">
+	<img  src = "assets/hv-types.webp" width = "600">
 </p>
 
 # **Operating System, Linux, Debian and Rocky**
 
-![Os & Debian](.assets/os.png)
+![Os & Debian](assets/os.webp)
 
 ### > Operating System
 
@@ -96,7 +96,7 @@ The operating system interact directly with the hardware with the help of its ke
 **System calls :** Are the primary interface between the user programs and the kernel, allow user applications to request services from the operating system such file access, process control or communication ... 
 
 <p align = "center">
-	<img src ="https://i.ibb.co/DVdJDbN/User-space-2.png" width = "450">
+	<img src ="assets/kernel.webp" width = "450">
 </p>
 
 
@@ -108,7 +108,7 @@ But you're completely **wrong** my friend! Because you are talking about the GNU
 Linux is the kernel, the core of the operating system, the entire OS is named **GNU/Linux** which combine the Linux kernel and the GNU Project tools and utilities.
 
 <p align = "center">
-	<img src = "https://i.ibb.co/3SGWjhB/9bygum.jpg" width = "250">
+	<img src = "assets/linux-meme.webp" width = "250">
 </p>
 
 
@@ -139,7 +139,7 @@ I think we already answer that from explaining each one of  them, Rocky is for t
 # APT, Aptitude and AppArmor
 
 
-![apt](https://i.ibb.co/Rcmh9mV/image.png)
+![apt](assets/aptitude.webp)
 
 
 ### > Package Manager
@@ -154,7 +154,7 @@ As we say that the package manager can be a command-line or a graphical tool hel
 
 When installing a package it depends to other packages to work, using **dpkg** you need to install them manually if they not exist on your system. Instead! there is other package managers that install the dependencies automatically like **APT** the powerful package manager.
 
-![dependency Problem](https://i.ibb.co/fqkQ22f/2-dependency-error-teamview-2.png)
+![dependency Problem](assets/dpkg.webp)
 
 
 ### > APT
@@ -170,7 +170,7 @@ The APT automatically install and update all the dependencies needed to install 
 Apt is newer than Apt-Get, also the Apt is user-friendly interface and provide cleaner output and progress bars for a better user experience.
 
 <p align = "center">
-	<img src = "https://i.ibb.co/3SrxBfs/Linux-Users-960-x-1100-px-960-x-1000-px-1-1.png" width = "350">
+	<img src = "assets/linux-users.webp" width = "350">
 </p>
 
 **How APT works ?**
@@ -190,7 +190,7 @@ When you run : `sudo apt update` the Apt downloads the latest updates of the pac
 The aptitude is a package manager older than the APT, it was released on 1999. It offers additionally of the command-line interface a **full-screen text-based graphical interface**,  making it more user friendly, also it shares the same back-end resources as APT.
 
 (Snapshot of the Aptitude graphical Interface)
-![Aptitude](https://i.ibb.co/DttnPPK/image.png)
+![Aptitude](assets/aptitude-gi.webp)
 
 
 
@@ -222,7 +222,7 @@ AppArmor links a profile to a program by matching the profile's **name** to the 
 
 **Example of a Profile file:**
 
-![Profile Example](https://i.ibb.co/q9KWmZn/Croped-Profile-example.png)
+![Profile Example](assets/profile.webp)
 
 
 AppArmor can use two modes to handle profiles :
@@ -235,13 +235,13 @@ The command is  ---> `sudo apparmor_parser -r /etc/apparmor.d/usr.bin.firefox`
 
 # Filesystem, Booting, Partitioning and Mounting 
 
-![Partitions, LVM](https://i.ibb.co/C5z346x/Lvm-Partitions.png)
+![Partitions, LVM](assets/partitions.webp)
 
 ## > Linux File System
 
 > **NOTE THAT EVERYTHING IN LINUX IS A *FILE* !!!**
 
-![Linux--File-System](https://i.ibb.co/6nSLhsJ/New-file-system-picture.png)
+![Linux--File-System](assets/root.webp)
 
 The Linux file system is a structured way to organize and manage data on device in Linux OS. Let's give some time to the important directories on the root directory tree.
 
@@ -267,7 +267,7 @@ Computers use **firmware** to initialize hardware, firmware is a small program s
 + **Execute the Bootloader .**
 
 <p align="center">
-<img src="https://i.ibb.co/hZkbqZn/maxresdefault.jpg" width="450">
+<img src="assets/bootloader.webp" width="450">
 </p>
 
 
@@ -283,7 +283,7 @@ For Guest the entire virtual partitions located inside the file allocated by the
 + **Extended Partitions :** Are container partition that holds additional partitions called logical partitions .
 + **Logical Partitions :** Exist inside an extended partition and behave like primary partitions, they are  numbered starting from `5` (`/dev/sda5` , `/dev/sda6` ...). Logical partitions are ideal for organizing data (separating `/home` and `/var`)
 <p align = "center">
-	<img src = "https://i.ibb.co/m8H02qx/MBR-Croped.png" width = "500">
+	<img src = "assets/mbr.webp" width = "500">
 </p>
 
 ## > Mounting
@@ -307,7 +307,7 @@ With LVM you can resize the volumes however you want, you can shrink the volume 
 >DON'T LET THIS PICTURE SCARE YOU BUDDY! BY THE END OF THIS CHAPTER YOU GONNA UNDERSTAND EVERYTHING I PROMISE.
 
 <p align = "center">
-	<img src = "https://i.ibb.co/bgkZVyR/image.png" >
+	<img src = "assets/lvm.webp" >
 </p>
 So this picture provide us how the LVM is structured on the Linux system :
 
@@ -343,12 +343,12 @@ After finishing the configuration step, the first thing you should do is to make
 
 `lsblk` : 
 
-<img src = "https://i.ibb.co/4J8XqD0/Screenshot-from-2024-12-11-07-14-13.png)" width = "600">
+<img src = "assets/lsblk.webp" width = "600">
 
  
 ## > ROOT User
 <p align = "center">
-	<img  src = "https://i.ibb.co/kBtnLyj/fpp-large-metallic-wall-texture-product-750x1000-u2.jpg" width="320">
+	<img  src = "assets/root-meme.webp" width="320">
 </p>
 
 The root is the **superuser** of the Linux system, the default administrative account with unrestricted access to the entire system and all of its resources, he is the most **powerful** user on Linux.  
@@ -368,12 +368,12 @@ The **SUDO** (Superuser DO) user on Linux as a mini-root who has the ability to 
 
 First change the user to the root using the `su -` command and using the apt package manager make the command `apt install sudo` to install the SUDO, then reboot the system to be activated using the command `sudo reboot`  
 <p align = "center">
-	<img src = "https://i.ibb.co/mbH648K/The-command-to-install-SUDO-utility.png" width = "800">
+	<img src = "assets/su.webp" width = "800">
 </p>  
 
 ## Creating of users and groups
 
-![users and groups configuration](https://i.ibb.co/wQ1fLnz/image.png)
+![users and groups configuration](assets/user-group.webp)
 
 We need to know how to create a new user, new group and how to link them.  
  
@@ -381,12 +381,12 @@ For me I already add a new user when configuring the Virtual Machine, to test th
 
 \- Create a new user with the username **rbassamy** :
 <p align = "center">
-	<img src = "https://i.ibb.co/K6dvCC6/After-Upscale.png" width = "600">
+	<img src = "assets/adduser.webp" width = "600">
 </p>  
 
 \- Rename the username **rbassamy** into **NewName** and then **delete** the user from the system :
 <p align = "center">
-	<img src = "https://i.ibb.co/Ln16F6D/Change-the-rbassamy-to-New-Name.png">
+	<img src = "assets/usermode.webp">
 </p>
 
 Note that :  
@@ -396,12 +396,12 @@ Note that :
 
 Now we gonna create a group, add a user to it, display the groups of a user and how to  remove a user from a group :
 <p align = "center">
-	<img src = "https://i.ibb.co/M6B8TJn/Add-a-user-to-a-Group.png">
+	<img src = "assets/addgroup.webp">
 </p>  
 
 # > SSH
 
-![SSH FROM PDF](https://i.ibb.co/yFytvtz/Screenshot-from-2024-12-15-04-57-00.png)
+![SSH FROM PDF](assets/ssh.webp)
 
 It's the time to configure the SSH service on our system. BUT **what is SSH? PORT??**  
 
@@ -437,27 +437,27 @@ After a successful authentication, the SSH session is established and the commun
 - Then to install the main tool for remote access with the SSH protocol using OpenSSH : `apt install openssh-server`  
 
 - Let's check the ssh status using the command : `service ssh status` 
-![SSH status](https://i.ibb.co/mBbgwMQ/Untitldded-design.png)
+![SSH status](assets/service.webp)
 
 As you can see that the SSH is **ACTIVE** but on the port 22! The subject ask us to use the port 4242 as the **SSH PORT**. So we're going to change it using those two files :
 
 + `/etc/ssh/sshd_config` : you'll find a line with a comment `#Port 22` change it to `Port 4242`
   <p align="center">
-	  <img src = "https://i.ibb.co/3kWjKBD/Screenshot-from-2024-12-16-17-19-44.png" width="350">
+	  <img src = "assets/default.webp" width="350">
 	</p>
 			Also on the same file we will block the root from using ssh for remote connection using the line `#PermitRootLogin prohibit_password` into `PermitRootLogin no`
 		  <p align="center">
-	  <img src = "https://i.ibb.co/k1grp58/Screenshot-from-2024-12-16-17-25-43.png" width="350">
+	  <img src = "assets/logingrace.webp" width="350">
 	</p>
 	
 + `/etc/ssh/ssh_config` : Also find the port line and change it to `Port 4242`
     <p align="center">
-	  <img src = "https://i.ibb.co/j4gTk6k/Screenshot-from-2024-12-16-17-30-52.png" width="300">
+	  <img src = "assets/port4242.webp" width="300">
 	</p>
 		
 To activate those changes we're going to restart the ssh service using the command `service ssh restart` 
 
-![final ssh status after the port changing](https://i.ibb.co/2t3m2bL/Untddddditled-design.png)
+![final ssh status after the port changing](assets/ssh-restart.webp)
 
 ### Connect remotely using SSH
 
@@ -468,12 +468,12 @@ By default the guest OS is totally isolated from the host OS, to connect remotel
 Let's configure **port forwarding** on VirtualBox : 
 
 <p align= "center">
-	<img src="https://i.ibb.co/fStbXZ5/dcc.png" width="600">
+	<img src="assets/network.webp" width="600">
 </p>
 
 **Then create a new rule :**
 <p align= "center">
-	<img src="https://i.ibb.co/8BMc3g2/Screenshot-from-2024-12-18-15-15-32.png" width="400">
+	<img src="assets/rule.webp" width="400">
 </p>
 
 Why 127.0.0.2 and not **localhost** (127.0.0.1) ?
@@ -502,11 +502,11 @@ For that we need to create a new file named `authorized-keys` on the SSH guest d
 Copy the key to the authorized file using the command : `ssh-copy-id -i ~/.ssh/id_rsa_pub -p 4242 mzanana@127.0.0.2 
 
 
-![Copy public key to the authorized guest file](https://i.ibb.co/stTKGtW/Screenshot-from-2024-12-19-13-46-39.png)
+![Copy public key to the authorized guest file](assets/ssh-id.webp)
 
 No password authentication for the `mzanana` user :
 <p align = "center">
-	<img src = "https://i.ibb.co/VBWHTYN/Screenshot-from-2024-12-19-14-13-48.png" width="500">
+	<img src = "assets/ssh-mzanana.webp" width="500">
 </p>
 
 # Firewall
@@ -523,19 +523,19 @@ UFW is a simplified front-end for managing firewall rules in Linux systems. By d
 
 -> Check if **UFW** exist on the system : `ufw status`  
 <p align="center">
-	<img src="https://i.ibb.co/6R7WjRr/Uffffntitlddded-design.png" width="500">
+	<img src="assets/ufw-status.webp" width="500">
 </p>
 
 -> Enable the UFW service : `ufw enable`  
 <p align="center">
-	<img src="https://i.ibb.co/phwn4XN/Untitled-deffsign.png" width="500">
+	<img src="assets/ufw-enable.webp" width="500">
 </p>
 
 #### IF You planned to Do the BONUS jump the next part !
 
 If you gonna do just the Mandatory part you need to kill the process running on port 68 as asked on the subject 
 <p align="center">
-	<img src="https://i.ibb.co/rcWWQ1L/image.png">
+	<img src="assets/tunlp.webp">
 </p>
 
 `-tunlp` flags explanation :
@@ -552,26 +552,26 @@ The process start automatically when the system boots up, so the idea is to kill
 
 Using the `systemctl status rc-local` we notice that the service is dead :
 <p align="center">
-	<img src="https://i.ibb.co/2hK4Jsv/Untitled-dsssesign.png" width="450">
+	<img src="assets/rc-local-status.webp" width="450">
 </p>
 
 We need now to start the service and check again
 <p align="center">
-	<img src="https://i.ibb.co/WP6GbtV/acc.png" width="550">
+	<img src="assets/rc-local-start.webp" width="550">
 </p>
 
 As you see that there is a `condition failed` error because of the script `/etc/rc.local`is not found, so we need to create script named `/etc/rc.local` and include the script we want to execute when booting the machine, which is the `pkill -f dhclient` command that kill a process `dhclient` running on the system. After that give the file all the permissions, then restart the service using `systemctl restart rc-local` command 
 <p align="center">
-	<img src="https://i.ibb.co/fp5fLyR/Screenshot-from-2024-12-21-03-22-14.png" width="200">
+	<img src="assets/dhclient.webp" width="200">
 </p>
 
 <p align="center">
-	<img src="https://i.ibb.co/rfRw2bS/Untitleavrd-design.png" >
+	<img src="assets/chmod.webp" >
 </p>
 
 Now let's check again the `ss -tunlp` : 
 <p align="center">
-	<img src="https://i.ibb.co/ftwLqQG/Screenshot-from-2024-12-21-03-30-51.png">
+	<img src="assets/tunlp2.webp">
 </p>
 
 **THE PROCESS IS KILLED SUCCESSFULLY!**
@@ -581,64 +581,64 @@ Now let's check again the `ss -tunlp` :
 
 Let's remove completely the **ufw** service :
 <p align="center">
-	<img src="https://i.ibb.co/jRftWsj/Untitled-designdddd.png">
+	<img src="assets/ufw-disable.webp">
 </p>
 
 Delete the folder of the ufw that still exist on `/etc/ufw` and install ufw again :
 <p align="center">
-	<img src="https://i.ibb.co/WfhxXd5/Untitlffffed-design.png">
+	<img src="assets/rm-ufw.webp">
 </p>
 
 Enable the **ufw** service and allow only the port 4242 :
 <p align="center">
-	<img src="https://i.ibb.co/9nR5wFJ/Untitledfff-design.png" width = "500">
+	<img src="assets/ufw-inactive.webp" width = "500">
 </p>
 
 Allow outgoing traffic and deny any incoming traffic  
 <p align="center">
-	<img src="https://i.ibb.co/LSZvWFv/Untitleddvgsgvs-design.png" width="400">
+	<img src="assets/ufw-incoming.webp" width="400">
 </p>
 
 # > Password policy
 
 **Let's begin the configuration by those three requirements :**
 
-![the first three pass equirements](https://i.ibb.co/X8kSTkf/Screenshot-from-2024-12-13-06-26-00.png) 
+![the first three pass equirements](assets/expire.webp) 
 
 For that we need to edit the `login.def` file, find the `Password aging controls` on the file and edit the values as requested :
 
-![PASS_...](https://i.ibb.co/Gk1f78x/Screenshot-from-2024-12-13-06-32-49.png)
+![PASS_...](assets/pass-control.webp)
 
 To make sure that everything worked fine, use the `chage -l <username>` command.
 
-![chage -l \<usernme>](https://i.ibb.co/4pPZpts/password.png)
+![chage -l \<usernme>](assets/chage-l.webp)
 
 **WHAT'S GOING ON ?? WHY OUR CHANGES ARE NOT APPLIED ???**   
 Relax buddy! Everything works perfectly as we want! Our changes are applied only for the new users, not to those who already exist on our system.
 
 We need to configure the passwords of the `root` and `mzanana` users manually, by the help of `chage`  command again.
 
-![change old users pass config manually ](https://i.ibb.co/58HnKZC/The-command-to-create-a-new-user.png)
+![change old users pass config manually ](assets/chage-m.webp)
 
 
 **Let's jump to the next step :**
 
-![10 characters, uper, lower, digit ...](https://i.ibb.co/1rtnfFf/Untddditled-design.png)
+![10 characters, uper, lower, digit ...](assets/must-be.webp)
 
 For those advanced configurations and without using a package, we may need to make a script and call it every time and that take us lot of time. Instead we gonna use a package to make our life easy.
 
 The package called `pam_pwquality` and we gonna install it using the command :
 
 <p align = "center">
-	<img src = "https://i.ibb.co/0QTYWnn/libpam.png" width ="500">
+	<img src = "assets/libpam.webp" width ="500">
 </p>
 
 The package now is installed! To use it we gonna edit the file `/etc/pam.d/common-password` :
 
-![](https://i.ibb.co/SPztGRB/image.png)
+![](assets/common.webp)
 
 this is the part missing on the first line after the `maxrepeat` option :
-<img src="https://i.ibb.co/djZrY9v/image.png" width="350">
+<img src="assets/reject-username.webp" width="350">
 
 the entire configuration :  
 ```
@@ -660,7 +660,7 @@ The explanation of each option :
 
 **Those policies are applied for the new users, to change the current password of the `root` and `mzanana` users just use the `passwd` command**
 <p align="center">
-	<img src="https://i.ibb.co/DGBqXVb/Screenshot-from-2024-12-14-04-18-37.png" width="400">
+	<img src="assets/passwd.webp" width="400">
 </p>
 
 # Sudo group Configuration
